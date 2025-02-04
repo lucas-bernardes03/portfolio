@@ -11,8 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        colorHover: "var(--color-hover)"
       },
     },
   },
   plugins: [],
+  darkMode: 'selector'
 } satisfies Config;
